@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Data Architecture Course</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <span class="navbar-brand">AWS Data Architecture</span>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h1>Data Architecture & Pipeline Development</h1>
+                <p class="lead">Master AWS Data Engineering</p>
+                <h5>Trainer: Niranjan Pandey</h5>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h3>Duration</h3>
+                        <p class="h4">30 Hours</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h3>Level</h3>
+                        <p class="h4">Intermediate to Advanced</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h3>Format</h3>
+                        <p class="h4">Online/Offline</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2>Prerequisites</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Basic Python programming</li>
+                    <li class="list-group-item">SQL fundamentals</li>
+                    <li class="list-group-item">Basic understanding of cloud computing concepts</li>
+                    <li class="list-group-item">AWS account for hands-on practice</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2>Course Modules</h2>
+                <div class="accordion" id="courseModules">
+                    <!-- Module 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#module1">
+                                Module 1: Foundations of Data Architecture (3 hours)
+                            </button>
+                        </h2>
+                        <div id="module1" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <h5>Theory (1.5 hours)</h5>
+                                <ul>
+                                    <li>Core concepts and principles</li>
+                                    <li>Types of data architectures</li>
+                                    <li>Modern data stack components</li>
+                                    <li>AWS data services ecosystem</li>
+                                </ul>
+                                <h5>Practical (1.5 hours)</h5>
+                                <ul>
+                                    <li>Setting up AWS environment</li>
+                                    <li>IAM security best practices</li>
+                                    <li>AWS CLI and SDK setup</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#module2">
+                                Module 2: Data Storage and Lake Formation (4 hours)
+                            </button>
+                        </h2>
+                        <div id="module2" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <h5>Theory (1.5 hours)</h5>
+                                <ul>
+                                    <li>S3 Deep Dive - Storage classes and lifecycle policies</li>
+                                    <li>Partitioning strategies</li>
+                                    <li>Security and access patterns</li>
+                                    <li>Data lake vs. data warehouse</li>
+                                    <li>Organizing data lakes</li>
+                                    <li>Metadata management</li>
+                                </ul>
+                                <h5>Practical (2.5 hours)</h5>
+                                <ul>
+                                    <li>S3 bucket structure design</li>
+                                    <li>Implementing storage tiers</li>
+                                    <li>Setting up Lake Formation</li>
+                                    <li>Data catalog configuration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#module3">
+                                Module 3: Batch Processing Architecture (5 hours)
+                            </button>
+                        </h2>
+                        <div id="module3" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <h5>Theory (2 hours)</h5>
+                                <ul>
+                                    <li>ETL vs. ELT - Architectural patterns</li>
+                                    <li>Trade-offs and considerations</li>
+                                    <li>Best practices</li>
+                                    <li>AWS Glue Deep Dive</li>
+                                    <li>Job scheduling and monitoring</li>
+                                </ul>
+                                <h5>Practical (3 hours)</h5>
+                                <ul>
+                                    <li>Glue job development</li>
+                                    <li>Python shell jobs</li>
+                                    <li>Spark jobs</li>
+                                    <li>Error handling and monitoring</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#module4">
+                                Module 4: Real-time Data Processing (5 hours)
+                            </button>
+                        </h2>
+                        <div id="module4" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <h5>Theory (2 hours)</h5>
+                                <ul>
+                                    <li>Event-driven design</li>
+                                    <li>Stream processing concepts</li>
+                                    <li>Latency considerations</li>
+                                    <li>Kinesis Data Streams</li>
+                                    <li>Kinesis Firehose</li>
+                                    <li>Kinesis Analytics</li>
+                                </ul>
+                                <h5>Practical (3 hours)</h5>
+                                <ul>
+                                    <li>Stream ingestion setup</li>
+                                    <li>Real-time processing with Lambda</li>
+                                    <li>Stream analytics implementation</li>
+                                    <li>Dashboard integration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#module5">
+                                Module 5: Data Warehouse Design (4 hours)
+                            </button>
+                        </h2>
+                        <div id="module5" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <h5>Theory (1.5 hours)</h5>
+                                <ul>
+                                    <li>Cluster management</li>
+                                    <li>Distribution styles</li>
+                                    <li>Sort keys and compression</li>
+                                    <li>Query optimization</li>
+                                    <li>Workload management</li>
+                                </ul>
+                                <h5>Practical (2.5 hours)</h5>
+                                <ul>
+                                    <li>Cluster setup and configuration</li>
+                                    <li>Table design and optimization</li>
+                                    <li>Loading strategies</li>
+                                    <li>Performance monitoring</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 6 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#module6">
+                                Module 6: Advanced Pipeline Development (4 hours)
+                            </button>
+                        </h2>
+                        <div id="module6" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <h5>Theory (1.5 hours)</h5>
+                                <ul>
+                                    <li>State machine design</li>
+                                    <li>Error handling patterns</li>
+                                    <li>Complex workflows</li>
+                                    <li>CloudWatch metrics and logs</li>
+                                    <li>Alert configuration</li>
+                                </ul>
+                                <h5>Practical (2.5 hours)</h5>
+                                <ul>
+                                    <li>Step Functions workflow</li>
+                                    <li>Error handling implementation</li>
+                                    <li>Monitoring dashboard setup</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 7 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#module7">
+                                Module 7: Security and Governance (3 hours)
+                            </button>
+                        </h2>
+                        <div id="module7" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <h5>Theory (1.5 hours)</h5>
+                                <ul>
+                                    <li>Encryption strategies</li>
+                                    <li>Access control</li>
+                                    <li>Network security</li>
+                                    <li>Compliance frameworks</li>
+                                    <li>Data quality</li>
+                                    <li>Lineage tracking</li>
+                                </ul>
+                                <h5>Practical (1.5 hours)</h5>
+                                <ul>
+                                    <li>Security implementation exercise</li>
+                                    <li>Governance framework setup</li>
+                                    <li>Compliance checking automation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module 8 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#module8">
+                                Module 8: Final Project (2 hours)
+                            </button>
+                        </h2>
+                        <div id="module8" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <h5>Capstone Project Components:</h5>
+                                <ul>
+                                    <li>Design and implement a complete data pipeline</li>
+                                    <li>Include both batch and streaming components</li>
+                                    <li>Implement monitoring and security</li>
+                                    <li>Present architecture and decisions</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p class="mb-0">&copy; 2024 AWS Data Architecture Course</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
